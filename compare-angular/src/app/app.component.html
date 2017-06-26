@@ -1,0 +1,54 @@
+<div class="nav has-shadow">
+  <div class="container">
+    <div class="nav-left">
+      <a href="" class="nav-item">POOMUGAM</a>
+    </div>
+
+    <span class="nav-toggle" (click)="toggleNav()" [ngClass]="{'is-active':isActive}">
+      <span></span>
+    <span></span>
+    <span></span>
+    </span>
+
+    <div class="nav-right nav-menu" [ngClass]="{'is-active':isActive}">
+
+      <a routerLink="/" class="nav-item r-item">Home</a>
+      <a routerLink="/products" class="nav-item r-item">Products</a>
+      <a routerLink="/" class="nav-item r-item">About</a>
+      <a routerLink="/" class="nav-item r-item">Contact</a>
+
+      <div class="nav-item">
+        <p class="control">
+          <a class="button is-primary is-outlined">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+            <span>Blog</span>
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<footer class="footer is-primary">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <p>Service at first in footer.</p>
+      </div>
+      <div class="column has-text-right">
+        <a class="icon" href="#">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

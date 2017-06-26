@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="section">
+    <h1 class="title">test</h1>
+    <h2 class="subtitle is-4">test</h2>
+    <div class="columns">
+      <div class="column is-one-third" *ngFor="let product of (products ? products.slice(0,10):[])">
+        <div class="card">
+          <div class="card-content">
+            <p class="title">{{product.title}}</p>
+            <p class="answer">{{product.body}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
