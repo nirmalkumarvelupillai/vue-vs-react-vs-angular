@@ -1,0 +1,17 @@
+.nav {
+  background-color: #163A4A; }
+  .nav a:hover {
+    color: #42BEDB; }
+
+.nav-left a {
+  color: #fff; }
+
+.nav-toggle span {
+  background-color: #95989A; }
+
+a.r-item {
+  color: #C1C1C1;
+  padding: 0.5rem 1.75rem; }
+  @media screen and (max-width: 768px) {
+    a.r-item:hover {
+      background-color: #F1F1F1; } }
