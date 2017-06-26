@@ -1,0 +1,12 @@
+.pd {
+  padding: 2.5rem 0 1.5rem 0; }
+
+.card {
+  min-height: 350px;
+  max-height: 350px; }
+
+.answer {
+  margin-top: 10px !important; }
+
+.columns {
+  flex-wrap: wrap; }
